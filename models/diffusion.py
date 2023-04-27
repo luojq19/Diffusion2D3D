@@ -4,7 +4,8 @@ import torch.nn.functional as F
 
 from tqdm.auto import tqdm
 
-class DiffusionGraph(nn.Module):
+
+class Diffusion2D(nn.Module):
     def __init__(self):
         super().__init__()
         

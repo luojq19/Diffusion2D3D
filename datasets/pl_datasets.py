@@ -4,7 +4,7 @@ from tqdm.auto import tqdm
 
 
 class PLDataset(pyg.data.Dataset):
-    def __init__(self):
+    def __init__(self, data_path):
         pass
     
     
